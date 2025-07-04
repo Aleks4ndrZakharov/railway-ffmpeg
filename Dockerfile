@@ -1,5 +1,5 @@
 # Используем официальный образ с FFmpeg
-FROM jrottenberg/ffmpeg:7.1
+FROM jrottenberg/ffmpeg:latest
 
 # Проверяем, что FFmpeg работает
 CMD ["ffmpeg", "-version"]
